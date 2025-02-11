@@ -1,4 +1,6 @@
 import java.util.*;
+import java.util.ArrayList;
+
 
 public class Main {
     public static void main(String[] args) {
@@ -8,6 +10,10 @@ public class Main {
         arrayList.add("Cherry");
         arrayList.add("Mango");
         arrayList.add("Strawberry");
+
+        arrayList.remove(2);
+
+        Collections.sort(arrayList);
 
         System.out.println("ArrayList: " + arrayList);
     }
