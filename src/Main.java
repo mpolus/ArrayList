@@ -1,6 +1,8 @@
 import java.util.*;
 import java.util.ArrayList;
 
+import static java.util.Collections.sort;
+
 
 public class Main {
     public static void main(String[] args) {
